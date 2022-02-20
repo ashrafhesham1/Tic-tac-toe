@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+
+        <title>
+            Tic-tac-toe
+        </title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="outer-container">
+
+            <h1>Tic-Tac-Toe</h1>
+            <P>Pick X or O to start</P>
+
+            <div class="buttons-stack">
+                <button type="button" id="x-btn" class="game-btn">X</button>
+                <button type="button" id="o-btn" class="game-btn">o</button>
+                <button type="button" id="reset-btn" class="game-btn" >Reset</button>
+            </div>
+
+            <div id="msg-label">
+                Choose!
+            </div>
+
+            <div id="score">
+                <p id="score-player-label">player:<span id="score-player">0</span></p>
+                <p id="score-computer-label">computer:<span id="score-computer">0</span></p>
+            </div>
+
+            <div class="game-container">
+
+                    <div class="game-cell" id="cell1" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell2" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell3" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell4" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell5" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell6" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell7" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell8" data-cell-state="0"></div>
+                    <div class="game-cell" id="cell9" data-cell-state="0"></div>
+
+            </div>
+
+            <p>Project by <a href="https://www.linkedin.com/in/ashraf-hesham1/" target="_blank">Ashraf Hesham</a></p>
+            <button type="button" id="again-btn" class="game-btn" >Play again</button>
+
+        </div>
+
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
